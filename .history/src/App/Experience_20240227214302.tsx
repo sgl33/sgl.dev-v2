@@ -1,0 +1,11 @@
+import '../css/general.css';
+
+function Experience() {
+    return (
+        <div>
+            <p>Experience</p>
+        </div>
+    )
+}
+
+export default Experience;

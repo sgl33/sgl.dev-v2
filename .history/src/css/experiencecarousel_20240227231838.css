@@ -1,0 +1,23 @@
+.expcar-background {
+    text-align: left;
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+}
+
+.expcar-item {
+    padding: 8px 16px;
+    background-color: #222222;
+}
+.expcar-item h1 {
+    font-size: 20pt;
+    margin: 0 0 4px 0;
+}
+.expcar-item p {
+    margin: 0 0 0 0;
+}
+.expcar-item li {
+    margin-bottom: 4px;
+    margin-left: -20px;
+    padding-left: 4px;
+}

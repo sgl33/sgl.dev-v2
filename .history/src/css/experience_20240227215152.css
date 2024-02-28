@@ -1,0 +1,27 @@
+
+#experience {
+    background-color: #333333;
+    padding: 24px 42px;
+    color: white;
+}
+
+#experience h1 {
+    color: white;
+    
+}
+
+#experience-buttons-container {
+    margin-top: 8px;
+}
+.experience-button {
+    background: none;
+    color: white;
+    border-style: none none solid none;
+    border-width: 1px;
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 0 6px;
+}
+.experience-button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.expcar-background {
+    text-align: left;
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+}
+
+.expcar-item {
+    padding: 2px 28px 6px 28px;
+    margin-bottom: 16px;
+    background-color: #222222;
+    border-radius: 8px;
+    position: relative;
+    min-height: 80px;
+}
+.expcar-item h1 {
+    font-size: 15pt;
+    margin: -4px 0 2px 0;
+}
+.expcar-item p {
+    margin: 0 0 2px 0;
+}
+.expcar-item ul {
+    margin-top: 12px;
+}
+.expcar-item li {
+    margin-bottom: 4px;
+    margin-left: -20px;
+    padding-left: 4px;
+}
+
+.expcar-item-right {
+    position: absolute;
+    right: 28px;
+    top: 22px;
+    text-align: right;
+}

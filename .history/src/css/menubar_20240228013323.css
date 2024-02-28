@@ -1,0 +1,13 @@
+#menubar-container {
+    border-style: solid;
+    min-height: 24px;
+}
+
+#menubar-right {
+    position: absolute;
+    right: 24px;
+}
+
+#menubar-right img {
+    width: 28px;
+}

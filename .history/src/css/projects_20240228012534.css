@@ -1,0 +1,32 @@
+
+#projects {
+    padding: 24px 42px;
+}
+#projects-header {
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+/* Buttons */
+#project-buttons-container {
+    margin-top: 16px;
+}
+.project-button, .project-button-selected {
+    background: none;
+    color: black;
+    border-style: none;
+    border-width: 1px;
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 0;
+}
+.project-button-selected {
+    border-style: none none solid none;
+    border-color: #6ee3b6;
+    border-width: 2px;
+}
+.project-button:hover {
+    cursor: pointer;
+}

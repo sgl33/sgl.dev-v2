@@ -1,0 +1,22 @@
+
+
+#landing-container {
+    border-style: solid;
+    text-align: left;
+    padding: 24px 42px;
+}
+
+#landing-container h1 {
+    font-size: 42px;
+    margin-bottom: 8px;
+    color: #295943;
+    font-weight: 900;
+}
+
+#landing-container h2 {
+    margin: 0px;
+}
+
+#landing-left {
+    width: 540px;
+}

@@ -1,0 +1,14 @@
+
+#experience {
+    background-color: #333333;
+    padding: 24px 42px;
+    color: white;
+}
+
+#experience h1 {
+    color: white;
+}
+
+.experience-button {
+    background: none;
+}

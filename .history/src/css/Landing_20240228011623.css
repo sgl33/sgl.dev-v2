@@ -1,0 +1,36 @@
+
+
+#landing-background {
+    padding: 64px 42px;
+}
+
+/* Text Container */
+#landing-text-container {
+    width: 480px;
+    margin: 12px auto 36px auto;
+}
+#landing-pic {
+    width: 200px;
+    height: 200px;
+}
+#landing-text-container h1 {
+    font-size: 36pt;
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+#landing-text-container h2 {
+    margin: 0px;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+/* Landing Buttons */
+#landing-buttons-container {
+    font-size: 14pt;
+    font-weight: 600;
+}
+.landing-button {
+    margin-left: 12px;
+}
+
+/* #abffd7 */

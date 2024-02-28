@@ -1,0 +1,11 @@
+
+
+#landing-container {
+    border-style: solid;
+    text-align: left;
+    padding: 24px 42px;
+}
+
+#landing-left {
+    width: 540px;
+}

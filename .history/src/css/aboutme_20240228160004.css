@@ -1,0 +1,55 @@
+#about-me {
+    background-color: #333333;
+    padding: 24px 42px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+#about-me-header {
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+/* Buttons */
+#about-me-buttons-container {
+    margin-top: 16px;
+}
+.about-me-button, .about-me-button-selected {
+    background: none;
+    color: #6ee3b6;
+    border-style: none;
+    border-width: 1px;
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 4px 10px;
+    padding: 0;
+}
+.about-me-button-selected {
+    border-style: none none solid none;
+    border-color: #6ee3b6;
+}
+.about-me-button:hover {
+    cursor: pointer;
+}
+
+/* Carousel */
+#about-me-carousel {
+    margin-top: 30px;
+}
+.amcar-container {
+    height: 520px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.amcar-container::-webkit-scrollbar {
+    display: none;
+}
+
+.amcar-content {
+    width: 600px;
+    max-width: 100%;
+    border-style: solid;
+    margin: auto;
+    text-align: left;
+}

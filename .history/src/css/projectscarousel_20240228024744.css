@@ -1,0 +1,57 @@
+
+.projcar-container {
+
+}
+
+/* Project Item */
+.projcar-item {
+    border-radius: 12px;
+    background-color: #efefef;
+    text-align: left;
+    padding: 16px 28px 16px 28px;
+    margin: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    position: relative;
+    min-height: 76px;
+    max-width: 760px;
+}
+
+.projcar-item-thumbnail-container {
+    display: inline-block;
+}
+.projcar-item-thumbnail {
+    display: inline-block;
+    width: 280px;
+    margin-right: 24px;
+    vertical-align: top;
+    border-radius: 8px;
+}
+.projcar-item h1 {
+    margin: 0 0 4px 0;
+    font-size: 16pt;
+}
+.projcar-item p {
+    margin: 0;
+    font-size: 12pt;
+}
+
+.projcar-item-right {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 440px;
+}
+
+/* Icons */
+.projcar-item-icons-container {
+    margin-top: 8px;
+}
+.projcar-item-icons-container img {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.projcar-item-icon-separator {
+    margin: 0px !important;
+}

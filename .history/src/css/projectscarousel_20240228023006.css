@@ -1,0 +1,15 @@
+
+.projcar-container {
+
+}
+
+/* Project Item */
+.projcar-item {
+    border-radius: 12px;
+    background-color: #efefef;
+    padding: 8px 12px;
+    text-align: left;
+}
+.projcar-item h1 {
+    font-size: 16pt;
+}

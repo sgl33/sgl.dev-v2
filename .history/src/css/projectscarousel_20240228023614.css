@@ -1,0 +1,35 @@
+
+.projcar-container {
+
+}
+
+/* Project Item */
+.projcar-item {
+    border-radius: 12px;
+    background-color: #efefef;
+    text-align: left;
+    padding: 16px 28px 16px 28px;
+    margin: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    position: relative;
+    min-height: 76px;
+    max-width: 760px;
+}
+.projcar-item h1 {
+    margin: 0;
+    font-size: 16pt;
+}
+.projcar-item img {
+    display: inline-block;
+    width: 280px;
+    margin-right: 24px;
+    background-color: black;
+    vertical-align: top;
+}
+
+.projcar-item-right {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 450px;
+}

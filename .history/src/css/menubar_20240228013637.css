@@ -1,0 +1,18 @@
+#menubar-container {
+    min-height: 24px;
+}
+
+#menubar-right {
+    position: absolute;
+    right: 24px;
+    top: 18px;
+}
+
+#menubar-right a {
+    margin-left: 20px;
+}
+
+#menubar-right img {
+    width: 20px;
+    height: 20px;
+}
