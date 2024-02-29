@@ -49,8 +49,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
 # Deployment Instructions
 
 1. Commit and push to Git repository.
@@ -59,3 +57,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 4. Run `npm run build` in the directory.
 5. Move all items in `build` folder to `~/sgl.dev/public_html`.
 6. Copy all items in `legacy_files` folder to `~/sgl.dev/public_html`.
+7. Set permissions to 755.
