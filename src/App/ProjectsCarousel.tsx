@@ -66,6 +66,7 @@ function ProjectsCarousel1() {
 function ProjectsCarousel2() {
     return (
         <div className='projcar-container'>
+            {projectItem(projectItems.dpm_survey)}
             {projectItem(projectItems.dpm_safesteps)}
             {projectItem(projectItems.custom_dashboard_v2)}
             {projectItem(projectItems.kams_hub)}
@@ -88,7 +89,6 @@ function ProjectsCarousel4() {
     return (
         <div className='projcar-container'>
             {projectItem(projectItems.route_recommendation)}
-            {projectItem(projectItems.dpm_safeconnect)}
         </div>
     );
 }

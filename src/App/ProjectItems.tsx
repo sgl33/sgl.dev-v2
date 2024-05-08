@@ -9,6 +9,7 @@ import sam_thumbnail from '../images/thumbnails/sam.png';
 import vex_robot_thumbnail from '../images/thumbnails/vex_robot.png';
 import classchat_thumbnail from '../images/thumbnails/classchat.png';
 import kams_hub_thumbnail from '../images/thumbnails/kams_hub.png';
+import dpm_survey_thumbnail from '../images/thumbnails/dpm_survey.jpg';
 
 // Platform Icons
 import nx_icon from '../icons/nintendo_switch_black.png';
@@ -57,7 +58,7 @@ const projectItems = {
         description: "Data collection iOS app for IMU sensor data collection and route guidance. For fall risk monitoring research project.",
         thumbnail: dpm_safesteps_thumbnail,
         project_types: ["Work Project", "Native iOS App"],
-        finished_date: "Jan 2024",
+        finished_date: "Feb 2024",
         platform_icons: [apple_icon],
         tool_icons: [swift_icon, node_icon, firebase_icon],
         platform_tools_text: "iOS | Swift, Node.js, Firebase",
@@ -65,6 +66,23 @@ const projectItems = {
             {
                 name: "Keynote",
                 url: "https://docs.google.com/presentation/d/1Trs3O5T9uqzC4Lml_6TYku27J_gyAMN-YCW6oCApIps/edit?usp=sharing"
+            }
+        ]
+    },
+    // Route Recommendation Survey
+    dpm_survey: {
+        name: "DPM Survey",
+        description: "Web app that collects survey responses for the Route Recommendation research project.",
+        thumbnail: dpm_survey_thumbnail,
+        project_types: ["Work Project", "Web App"],
+        finished_date: "Apr 2024",
+        platform_icons: [web_icon],
+        tool_icons: [react_icon, ts_icon, firebase_icon],
+        platform_tools_text: "Web | React, TypeScript, Firebase",
+        links: [
+            {
+                name: "Figma",
+                url: "hhttps://www.figma.com/file/0nDvKsDax7XC2ISBwIA7Rg/Survey-Design?type=design&node-id=251-9838&mode=design"
             }
         ]
     },

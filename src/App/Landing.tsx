@@ -1,7 +1,7 @@
 import '../css/general.css';
 import '../css/landing.css';
 
-import profile_pic from '../images/emoji.png';
+import profile_pic from '../images/profile_pic.png';
 
 function Landing() {
     return (

@@ -33,7 +33,7 @@ function ExperienceCarousel1() {
         education: {
             school: "University of Michigan - Ann Arbor",
             major: "Computer Science",
-            gpa: 3.9,
+            gpa: 3.82,
             grad_year: 2025
         },
         work_experience: [
@@ -71,7 +71,7 @@ function ExperienceCarousel2() {
                         Treetown Tech
                     </a>
                 </h1>
-                <p className='expcar-stack-item-italics'>Incoming Software Engineer Intern</p>
+                <p className='expcar-stack-item-italics'>Software Engineer Intern</p>
                 <MobileView>
                     <p className='expcar-item-right-mobile'>
                         Ann Arbor, MI &bull; May 2024 - Aug 2024
@@ -98,7 +98,7 @@ function ExperienceCarousel2() {
                 <p className='expcar-stack-item-italics'>Software Developer</p>
                 <MobileView>
                     <p className='expcar-item-right-mobile'>
-                        Ann Arbor, MI &bull; Apr 2023 - Present
+                        Ann Arbor, MI &bull; Apr 2023 - Apr 2024
                     </p>
                 </MobileView>
                 <ul>
@@ -106,13 +106,13 @@ function ExperienceCarousel2() {
                         Developed iOS application using <b>Swift</b> and <b>Firebase</b> to assist researchers with data collection for walking safety AI model with wearable IMU sensors
                     </li>
                     <li>
-                        Created <b>React</b> web apps to visualize data and record user surveys
+                        Improved existing iOS application by adding new features and fixing bugs
+                    </li>
+                    <li>
+                        Created <b>React</b> web apps to visualize data and record survey responses
                     </li>
                     <li>
                         Set up <b>Node.js</b> backend to serve as a REST API endpoint for machine learning algorithms and remote push notifications
-                    </li>
-                    <li>
-                        Assisted development of a cross-platform mobile app with <b>React Native</b> and OpenStreetMaps API guiding users to safer routes
                     </li>
                     <li>
                         Wrote <b>Python</b> web scrapers and data processors to collect a dataset of ~120k images and assisted with training computer vision model; placed 1st in national ASCE datathon
@@ -121,7 +121,7 @@ function ExperienceCarousel2() {
                 <BrowserView>
                     <div className='expcar-item-right'>
                         <p>Ann Arbor, MI</p>
-                        <p>Apr 2023 - Present</p>
+                        <p>Apr 2023 - Apr 2024</p>
                     </div>
                 </BrowserView>
             </div>
@@ -171,9 +171,9 @@ function ExperienceCarousel3() {
                     </p>
                 </MobileView>
                 <ul>
-                    <li>GPA: 3.88 / 4.0</li>
+                    <li>GPA: 3.82 / 4.0</li>
                     <li>Minor: Mobility Systems Engineering</li>
-                    <li>Relevant Courses: Operating Systems, Computer Security, Computer Organization, Data Structures and Algorithms, CS Pragmatics</li>
+                    <li>Relevant Courses: Operating Systems (Advanced version), Computer Security, Computer Organization, Data Structures and Algorithms, CS Pragmatics</li>
                 </ul>
                 <BrowserView>
                     <div className='expcar-item-right'>
