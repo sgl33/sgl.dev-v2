@@ -8,6 +8,7 @@ import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detec
 import react_icon from '../icons/react_icon.png';
 import swift_icon from '../icons/swift_icon.png';
 import cpp_icon from '../icons/cpp_icon.png';
+import html_icon from '../icons/html_icon.png';
 import js_icon from '../icons/js_icon.png';
 
 import github_icon from '../icons/github_black.png';
@@ -19,8 +20,10 @@ import linux_icon from '../icons/linux_icon.png';
 
 import node_icon from '../icons/node_icon.png';
 import unity_icon from '../icons/unity_black.png';
+import redis_icon from '../icons/redis_icon.png';
 
 import mysql_icon from '../icons/mysql_icon.png';
+import postgresql_icon from '../icons/postgresql_icon.png';
 import r_icon from '../icons/r_icon.png';
 import popup_icon from '../icons/small_popup_icon.png';
 
@@ -33,7 +36,7 @@ function ExperienceCarousel1() {
         education: {
             school: "University of Michigan - Ann Arbor",
             major: "Computer Science",
-            gpa: 3.82,
+            gpa: 3.85,
             grad_year: 2025
         },
         work_experience: [
@@ -41,8 +44,8 @@ function ExperienceCarousel1() {
             { employer: "DPM Lab", position: "Software Developer" },
             { employer: "DesignOC", position: "Web Developer Intern" }
         ],
-        top_skills: ["React", "Swift", "C/C++", "Python"],
-        programming_experience_in_years: 9\n}`
+        top_skills: ["Python", "HTML/CSS", "JavaScript", "React", "Swift", "C/C++"],
+        programming_experience_in_years: 10\n}`
     };
 
     return (
@@ -74,16 +77,27 @@ function ExperienceCarousel2() {
                 <p className='expcar-stack-item-italics'>Software Engineer Intern</p>
                 <MobileView>
                     <p className='expcar-item-right-mobile'>
-                        Ann Arbor, MI &bull; May 2024 - Aug 2024
+                        Ann Arbor, MI &bull; May 2024 - Present
                     </p>
                 </MobileView>
                 <ul>
-                    <li>To be determined</li>
+                    <li>
+                        Lead development of web frontend and RESTful backend using <b>Python (FastAPI)</b>, <b>Redis</b>, <b>PostgreSQL</b>, and <b>HTML</b> framework for a software provisioning system
+                    </li>
+                    <li>
+                        Implemented web interface and main algorithm with <b>Python</b> for a promotional wall art display built with 2,400 servos controlled by STM32 controllers connected via the CAN bus
+                    </li>
+                    <li>
+                        Built AI-powered "roasting robot" using <b>Python</b> and <b>Arduino</b> integrating GPT and OpenCV; presented at A2 TechTrek (2024)
+                    </li>
+                    <li>
+                        Created automated testing software in <b>Python</b> for a factory automation software using RTLS technology (UWB), anticipated to save the client over $1 million per year
+                    </li>
                 </ul>
                 <BrowserView>
                     <div className='expcar-item-right'>
                         <p>Ann Arbor, MI</p>
-                        <p>May 2024 - Aug 2024</p>
+                        <p>May 2024 - Present</p>
                     </div>
                 </BrowserView>
                 
@@ -171,9 +185,9 @@ function ExperienceCarousel3() {
                     </p>
                 </MobileView>
                 <ul>
-                    <li>GPA: 3.82 / 4.0</li>
+                    <li>GPA: 3.85 / 4.0</li>
                     <li>Minor: Mobility Systems Engineering</li>
-                    <li>Relevant Courses: Operating Systems (Advanced version), Computer Security, Computer Organization, Data Structures and Algorithms, CS Pragmatics</li>
+                    <li>Relevant Courses: Operating Systems (Advanced version), Web Systems, Computer Security, Computer Organization, CS Pragmatics, Sensors and Circuits</li>
                 </ul>
                 <BrowserView>
                     <div className='expcar-item-right'>
@@ -229,9 +243,10 @@ function ExperienceCarousel4() {
                     <th>Excellent</th>
                     <td>
                         <div className='expcar-table-cell'>
-                            {skillItem('React', react_icon)}
-                            {skillItem('Swift', swift_icon)}
+                            {skillItem('Python', python_icon)}
                             {skillItem('C++', cpp_icon)}
+                            {skillItem('React', react_icon)}
+                            {skillItem('HTML/CSS', html_icon)}
                         </div>
                     </td>
                 </tr>
@@ -240,13 +255,13 @@ function ExperienceCarousel4() {
                     <th>Very Good</th>
                     <td>
                         <div className='expcar-table-cell'>
-                            {skillItem('Python', python_icon)}
                             {skillItem('Java', java_icon)}
                             {skillItem('TypeScript', ts_icon)}
-                            
+                            {skillItem('Swift', swift_icon)}
                             {skillItem('Git', github_icon)}
                             {skillItem('Firebase', firebase_icon)}
                             {skillItem('Linux', linux_icon)}
+                            {skillItem('SQL', postgresql_icon)}
                         </div>
                     </td>
                 </tr>
@@ -255,9 +270,10 @@ function ExperienceCarousel4() {
                     <th>Good</th>
                     <td>
                         <div className='expcar-table-cell'>
+                            
+                            {skillItem('Redis', redis_icon)}
                             {skillItem('Node', node_icon)}
                             {skillItem('Unity', unity_icon)}
-                            {skillItem('React Native', react_icon)}
                         </div>
                     </td>
                 </tr>
@@ -266,7 +282,7 @@ function ExperienceCarousel4() {
                     <th>Beginner</th>
                     <td>
                         <div className='expcar-table-cell'>
-                            {skillItem('MySQL', mysql_icon)}
+                            {skillItem('React Native', react_icon)}
                             {skillItem('R', r_icon)}
                         </div>
                     </td>
